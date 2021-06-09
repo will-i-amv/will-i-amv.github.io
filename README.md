@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+# WELCOME TO MY PERSONAL WEB PAGE
 
-You can use the [editor on GitHub](https://github.com/will-i-amv/will-i-amv.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Introduction
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Hi, I am William.
 
-### Markdown
+### My Interests
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Software Development
+- Data Science
+- Economics
+- Crypto Currencies
 
-```markdown
-Syntax highlighted code block
+### Get in Touch
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/will-i-amv/will-i-amv.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- [Github](https://github.com/will-i-amv)
+- [Twitter](http://twitter.com/will_i_amv)
+- [Linkedin](www.linkedin.com/in/will-i-amv)
