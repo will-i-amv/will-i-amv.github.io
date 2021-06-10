@@ -1,9 +1,5 @@
 # WELCOME TO MY PERSONAL WEB PAGE
 
-## Introduction
-
-Hi, I am William. An electrical engineer by background, turned software developer in the last years.
-
 ### My Interests
 
 - Software Development
