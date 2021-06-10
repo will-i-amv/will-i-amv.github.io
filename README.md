@@ -2,13 +2,14 @@
 
 ## Introduction
 
-Hi, I am William.
+Hi, I am William. An electrical engineer by background, turned software developer in the last years.
 
 ### My Interests
 
 - Software Development
 - Data Science
 - Economics
+- Game Theory/Mechanism design
 - Crypto Currencies
 
 ### Get in Touch
