@@ -1,5 +1,3 @@
-# WELCOME TO WILLIAM'S PERSONAL WEB PAGE
-
 ## My Background
 
 Hi, I'm William. I'm male and 29 years old. 
