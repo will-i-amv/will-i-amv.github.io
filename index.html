@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>William Vera | Personal Site</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <div id="lead">
+        <div id="lead-content">
+            <h1>William Vera</h1>
+            <h2>Back-end Developer</h2>
+            <a href="Resume.pdf" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <div id="lead-overlay"></div>
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I am a self-taught Python developer with 2+ years of experience building 
+                        and maintaining web back-end systems, using Django and PostgreSQL as my tech stack, 
+                        alongside python's PyData ecosystem for building data processing pipelines.<br><br> 
+                        
+                        I strive to write robust, production-ready code that solves
+                        complex real-world challenges.<br><br>                        
+                        
+                        Some of the Technologies I've worked with:<br>
+                        
+                        <ul>
+                            <li><b>Languages:</b> Python, HTML/CSS, Bash. </li>
+                            <li><b>Web Frameworks:</b> Flask, Django. </li>
+                            <li><b>Databases:</b> PostgreSQL, SQLite. </li>
+                            <li><b>Data processing libraries:</b> NumPy, Pandas. </li>
+                            <li><b>Data visualization libraries:</b> Plotly. </li>
+                            <li><b>Other Tools and Technologies:</b> Linux, Git, Docker. </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Some Projects I've Built</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Watchlist.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <h3>Stock Portfolio Builder - Flask</h3>
+                        <p>
+                            A financial web application written in Flask that allows 
+                            the creation of dummy portfolios for US-based stocks.<br><br>
+
+                            <b>Tech stack:</b> Flask, MySQL, SQLalchemy, Pandas, Bootstrap, Plotly.
+                        </p>
+                        <a href="https://github.com/will-i-amv/portfolio-builder-flask/">View on Github</a>
+                    </div>
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Watchlist.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <h3>Stock Portfolio Builder - Django</h3>
+                        <p>
+                            A Django version of the Portfolio Builder listed above. Using the same 
+                            Bootstrap layout in both projects.<br><br>
+
+                            <b>Tech stack:</b> Django, PostgreSQL, Pandas, Bootstrap, Plotly.
+                        </p>
+                        <a href="https://github.com/will-i-amv/portfolio-builder-django/">View on Github</a>
+                    </div>
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Crypto_Dashboard.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <h3>Crypto Currency Dashboard</h3>
+                        <p>
+                            A web application written in Dash for cryptocurrency market data visualization.
+                            It uses the Dash framework along with the Plotly library 
+                            for displaying and updating charts interactively.<br><br>
+
+                            <b>Tech stack:</b> Dash, Pandas, SQLite, Plotly.
+                        </p>
+                        <a href="https://github.com/will-i-amv/web-crypto-dashboard/">View on Github</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Django</li>
+            <li>Flask</li>
+            <li>NumPy</li>
+            <li>Pandas</li>
+            <li>Plotly</li>
+            <li>PostgreSQL</li>
+            <li>Linux</li>
+            <li>Git</li>
+            <li>Docker</li>
+        </ul>
+    </div>
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/f/xbjvbwoz">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2023</span> William Vera
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/will-i-amv/" target="_blank"><i class="fa fa-github"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/will-i-amv/" target="_blank"><i class="fa fa-linkedin"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/wil_i_amv/" target="_blank"><i class="fa fa-twitter"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
